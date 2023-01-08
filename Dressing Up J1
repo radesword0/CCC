@@ -1,0 +1,15 @@
+
+def answer(n):
+    n = int(input())
+    steps = 0
+    initialsize = 2 * n
+    answer = [' '] * (initialsize)
+    
+    if steps = n:
+        break
+    else:
+        print(answer)
+        
+        
+        
+answer()
