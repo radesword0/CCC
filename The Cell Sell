@@ -1,0 +1,35 @@
+a = int(input())
+b = int(input())
+c = int(input())
+g = b*15
+u = c*20
+A = a+g+u
+w = A/100
+
+def A():
+
+if a > 100:
+    d = (a-100)*25     
+    A = d+g+u
+    w = A/100
+    print("Plan A costs", + w)
+
+elif a < 100:
+    a=0
+
+    print("Plan A costs", + w)
+    
+A()
+def B():
+    
+if a > 250:
+    d = (a-250)*45    
+    print("Plan B costs", + w)
+
+else:
+    a < 250
+    a=0
+
+    print("Plan B costs", + w)
+    
+B()
