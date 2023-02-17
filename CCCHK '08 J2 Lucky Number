@@ -1,0 +1,19 @@
+bday = int(input())
+
+
+
+list = []
+
+for i in range(bday):
+  list.append(int(input()))
+
+sum = 0
+for x in list:
+      sum = sum + x
+
+sum = str(sum)
+bday = int(sum)
+if len(sum) > 1:
+    sum = 0
+for x in list:
+      sum = sum + x
