@@ -1,0 +1,17 @@
+Anthony = 100
+Davis = 100
+rounds = int(input())
+
+for i in range(rounds):
+    x,y = input().split()
+    x = int(x)
+    y = int(y)
+    
+    if x>y:
+         Davis -= x
+            
+    if y>x:
+        Anthony -= y
+
+print(Anthony)
+print(Davis)
