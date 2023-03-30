@@ -1,0 +1,17 @@
+n = int(input()) #finding the amount of adjectives
+m = int(input()) #finding the amount of nouns
+adj = []
+nouns = []
+for i in range(n):
+  x = input()
+  adj.append(x)
+
+for i in range(m):
+  x = input()
+  nouns.append(x)
+
+
+for i in range(n):
+  for y in range(m):
+    print(adj[i]+(" as ") + nouns[y])
+  
