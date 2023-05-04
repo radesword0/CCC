@@ -1,0 +1,11 @@
+example = input()
+letter_library = "IOSHZXN"
+valid = True
+for letter in example:
+    if not letter in letter_library:
+        valid = False
+        break
+if valid:
+    print("YES")
+else:
+    print("NO")
